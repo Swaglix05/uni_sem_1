@@ -652,27 +652,8 @@ $(f^{-1}(x))'=\frac{1}{f'(x)*f^{-1}(x)}$
 
 ### Kurvendiskussion
 
-  
-
 Beispiel:
 
 - NS von $sin(x)$:
 
 $\lbrace (k*\pi,0), k \in \mathbb{Z} \rbrace$
-
-# TODO
-
-- Trigonometrisch
-
-- Ebene
-
-  
-  
-
-## komisch:
-
-  
-
-Übung zu Vektorrechnung INF/WINF
-
-- Frage 5, 8
