@@ -1,0 +1,111 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm} 
+\usepackage{booktabs}
+\usepackage{caption} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{	
+	\normalfont\normalsize
+	\textsc{Technische Universität Wien}\\
+    \vspace{10pt}
+    \textsc{\large 104.631 Mathematisches Arbeiten für Informatik und Wirtschaftsinformatik}\\
+    \rule{\linewidth}{0.5pt}\\
+	\vspace{20pt} 
+	{\huge N. Hausübung}
+}
+
+\author{\Large Name des Studierenden} % Hier den Namen einfügen
+\date{\normalsize\today} % Aktuelles Datum
+
+\begin{document}
+
+\maketitle % Titel erzeugen
+
+%----------------------------------------------------------------------------------------
+%	ABSCHNITT 1
+%----------------------------------------------------------------------------------------
+
+\section{Aufgabe}
+% Beispiel: Ein Bild einfügen
+
+%\begin{figure}[ht] 
+%	\centering
+%	\includegraphics[width=0.5\columnwidth]{Bild.jpg} 
+%	\caption{Beispielbild}
+%\end{figure}
+
+% Beispiel: Mathematische Umgebungen
+
+\begin{equation}
+    \begin{split}
+		P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+	\end{split}		
+\end{equation} 
+
+\begin{equation}
+	A = 
+	\begin{bmatrix}
+		A_{11} & A_{12} \\
+		A_{21} & A_{22}
+	\end{bmatrix}
+\end{equation}
+
+\begin{align}
+	B = 
+	\begin{bmatrix}
+		B_{11} & B_{12} \\
+		B_{21} & B_{22}
+	\end{bmatrix}
+\end{align}
+
+%----------------------------------------------------------------------------------------
+%	ABSCHNITT 2
+%----------------------------------------------------------------------------------------
+
+\section{Aufgabe}
+% Beispiel: Aufzählung
+
+\begin{itemize}
+	\item Erster Punkt in einer Liste
+		\begin{itemize}
+		\item Erster Unterpunkt 
+			\begin{itemize}
+			\item Tiefer Unterpunkt 1
+			\item Tiefer Unterpunkt 2
+			\end{itemize}
+		\item Zweiter Unterpunkt
+		\end{itemize}
+	\item Zweiter Punkt in einer Liste 
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	ABSCHNITT 3
+%----------------------------------------------------------------------------------------
+
+\section{Aufgabe}
+% Beispiel: Tabelle
+
+\begin{table}[ht] 
+	\centering
+	\begin{tabular}{l l l}
+		\toprule
+		\textbf{Pro 50g} & \textbf{Schweinefleisch} & \textbf{Soja} \\
+		\midrule
+		\textit{Energie} & 760 kJ & 538 kJ \\
+		\textit{Protein} & 7.0 g & 9.3 g \\
+		\textit{Kohlenhydrate} & 0.0 g & 4.9 g \\
+		\textit{Fett} & 16.8 g & 9.1 g \\
+		\textit{Natrium} & 0.4 g & 0.4 g \\
+		\textit{Ballaststoffe} & 0.0 g & 1.4 g \\
+		\bottomrule
+	\end{tabular}
+	\caption{Nährwerte einer Wurst.}
+\end{table}
+
+\end{document}
