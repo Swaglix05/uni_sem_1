@@ -43,7 +43,7 @@ Anfang und Induktionsschritt jeweils beweisen
 	$(2n+1)+n^2 = (n+1)^2$           w.A 
 
 
-Bsp. Verschieben des Induktionsanfangs:
+Bsp. Verschieben des Induktionsanfangs
 
 Ungleichung:
 $(n+1)*2^n\leq 3^n$
@@ -62,7 +62,7 @@ Induktionsanfang: $P(n_{0})$
 Induktionsschritt:
 - I.V: $(n+1)*2^n\leq{3}^n$
 - I.B. $(n+2*2^{n+1}\leq{3}^{n+1})$ ... zu zeigen
-
+ 
 $3^{n+1}=3*3^n$
 I.V. anwenden
 $3*(n+1)*2^n$          / 3 auf 2+1 aufteilen
@@ -211,3 +211,29 @@ $\implies x_{1,2}=-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2-q  }$
 
 kartesische Darstellung:
 z=a+b\*i
+
+Polar => Karthesisch
+$\phi=\arctan\left( \frac{b}{a} \right), a<0, b>0$
+$\phi=\arctan\left( \frac{b}{a} \right)+2\pi, a<0, b<0$
+$\phi=\arctan\left( \frac{b}{a} \right)+pi, a<0$
+$\phi=\frac{1}{2}\pi, a=0, b>0$
+$\phi=\frac{3}{2}\pi, a=0, b<0$
+
+$e^{i\phi}=i\cos{\phi}+i\sin{\phi}$
+
+Multiplikation ist geometrisch eine Drehstreckung S.12
+
+$z^{-1}=\frac{1}{z}=\frac{a-bi}{a^{2}+b^{2}} = \frac{1}{r}*e^{-\phi}$
+
+$z=a+bi$
+$\bar{z}=z-bi$
+Warum komplexe Zahlen: sqrt(-1), generell Wurzeln
+
+$z^n=[r^n,n*\phi]$ => mit vollständiger Induktion zeigen
+
+
+bei wurzeln
+es geüngt:
+$k\in\{0,1,\dots,n.1\} für \frac{\psi}{n}+\frac{2*\pi*k}{n}$, da ab n wieder periodisch das gleiche herauskommt
+
+Fundamentalsatz der Algebra S. 15, gilt in $\mathbb{C}$
