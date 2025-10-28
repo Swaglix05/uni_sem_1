@@ -14,5 +14,41 @@ abzählbar=1 zu 1 zweisung zu nat. Zahlen
 S. 33
 
 Diagonalisierungsverfahren für Q+
-![[Pasted image 20251023083100.png]]  
+![[Pasted image 20251023083100.png]]
 
+
+
+
+
+Beweis: unendlich reelle Zahlen
+![[Pasted image 20251023083911.png]]
+
+![[Pasted image 20251023084001.png]]
+
+
+leere Menge: $\not{0} = \{\}$
+
+
+Multimenge  = {x, x, y, y} ,   Vielfachheit
+Menge = {x, y}
+S. 32 
+
+
+S33 1.44 nur für abzählbare Mengen (Indexmenge)
+
+Symetrische Differnezen S. 35 das unterste (XOR)
+
+S.37 Beweis anders:
+![[Pasted image 20251023092430.png]]
+
+
+## 1.5 Relationen und Funktionen
+
+S. 37 allg. für k-Tupel
+![[Pasted image 20251023093232.png]]
+
+
+beispiel S.39, aber  a R b <=> a|b
+![[Pasted image 20251023093858.png]]
+
+![[Pasted image 20251023094606.png]]
