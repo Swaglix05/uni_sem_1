@@ -22,7 +22,7 @@ wenn sowohl  $A$  wahr ist als auch  $B$  wahr ist. Die Bedeutung der Konjunktio
 
 <table><tr><td>A</td><td>B</td><td>A∧B</td></tr><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></table>
 
-![](res/sem_1/mathe_arbeiten/01_aussagen_warning.png)
+![](01_aussagen_warning.png)
 $\textbf{Warning 1.1.}$  Das Symbol  $\wedge$  scarf nicht auf naive Weise als Abkürzung des Wortes "und" benutzt werden. So kann z.B. die Aussage  $x$  und  $y$  sind großer als  $0$  nicht geschrieben werden als  $x \wedge y > 0$  da  $x \wedge y$  keine Zahl ist. Richtig ist stattdessen:  $x > 0 \wedge y > 0$ . Ähnliches gilt für die im Weiteren vorgestellt den Verknüpfungen auch.
 
 Disjunktion (oder-Verknupfung). Falls  $A$  und  $B$  Aussagen sind, so ist auch  $A\lor B$  (ausgesprochen als "A oder  $B$ ") eine Aussage2. Die Aussage  $A\lor B$  liegt Disjunktion von  $A$  und  $B$  und die Aussen  $A$  und  $B$  halten Disjunkte von  $A\lor B$ . Die Aussenage  $A\lor B$  ist wahr genau dann wenn  $A$  wahr, wenn  $B$  wahr ist oder wenn sowohl  $A$  als auch  $B$  wahr sind. Durch eine Wahrheitsstafel kann das wie folgt dargestellt werden:

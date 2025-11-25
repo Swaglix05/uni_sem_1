@@ -52,3 +52,25 @@ beispiel S.39, aber  a R b <=> a|b
 ![[Pasted image 20251023093858.png]]
 
 ![[Pasted image 20251023094606.png]]
+
+
+# 1.5 Relationen
+Graph einer Ordnung:
+![[Pasted image 20251028083429.png]]
+
+Hasse diagramm gleicher Funktion: S. 41 ende + 42
+
+wie schaut graph aus für   $(\{-2,-1,0,1,2\}, \mid )$ 
+![[Pasted image 20251028084313.png]]
+
+
+### Antikette
+zusätzlich zu S.42, Elemente die Unvergleichbar sind
+![[Pasted image 20251028084913.png]]
+rot... Antikette, keine Relation zueinander, Gelb, normale Kette
+
+
+
+Wohlordnungaxiom: Jede Menge A lässt sich wohlordnen
+(ähnlich zum Auswahlaxiom)
+

@@ -104,7 +104,7 @@ Jede Funktion benötigt:
 
 ### Darstellung
 
-![image](res/sem_1/ak_math/pref_math_funktion_definition.png)
+![image](pref_math_funktion_definition.png)
 
   
 
@@ -201,7 +201,7 @@ Wertetabelle:
 
   
 
-![image](res/sem_1/ak_math/linear_equation_definition.png)
+![image](linear_equation_definition.png)
 
   
 
@@ -263,7 +263,7 @@ Nullstellen sind eine Menge, die aus Punkten besteht
 
   
 
-![image](res/sem_1/ak_math/quadratic_function_definition.png)
+![image](quadratic_function_definition.png)
 
   
 
