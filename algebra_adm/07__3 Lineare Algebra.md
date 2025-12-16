@@ -11,3 +11,5 @@ Nur elementare Zeilenumformungen
 
 
 
+S. 139 Satz 3.58 zweitens: 
+folgt auf grund der multilinearität
