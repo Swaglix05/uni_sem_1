@@ -57,3 +57,13 @@ Chancen:
 
 Risiken:
 - Struktur ausfallen
+
+
+
+# Policy
+- guter erster Schritt
+- KI Inhalte bannen
+	- da ohne KI generell viel weniger/langsamer Missinformation entsteht
+	- und da wenige Leute und auch Plattformen unterscheiden können, ob etwas von KI gemacht wurde oder nicht
+
+- Wiederholen der Geschichte
