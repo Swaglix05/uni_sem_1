@@ -12,7 +12,7 @@ ungerichteter Graph:
 $G=(v,E)$
 $e=\{u,v\} \iff e=u,v$
 
-ger Graph:
+gerichteter Graph:
 $G=(V,E)$
 $e=(u,v) \iff    u\implies v$
 
