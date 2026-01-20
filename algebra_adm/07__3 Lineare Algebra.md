@@ -19,3 +19,4 @@ Parallelepiped = 3 Dimensionales Parallelogramm quasi, steht auf Seite 138 Mitti
 S. 144 Warum darf man bei der Cauchy-Schwarze Ungleichung Lambda einen spezifischen Wert einsetzten, gilt es dann nicht nur für dieses Lambda (auch wenn generell die Gleichung für alle Lambda gilt, ist doch das ergebnis nur für das eine spezifische Lambda der Fall)
 
 S.147 Spektralsatz wird auch Hauptachsentransformation genannt
+
