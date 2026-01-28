@@ -250,8 +250,8 @@ $Γ ={0,1,"err"}$
 siehe mappe
 
 ![[Pasted image 20260119165546.png]]
-11011010  => 10010011
-01011100 => err err err err err err err err
+11011010  => 010010011
+01011100 => 0 err err err err err err err err
 ![[Pasted image 20260119165726.png]]
 falsch
 falsch
@@ -263,13 +263,13 @@ falsch
 wahr ... kann auch akzeptieren  muss nicht
 
 ![[Pasted image 20260119170001.png]]
-$[-][0-9]+(.[0-9]+)?$
+$-?[0-9]+(,[0-9]+)?$
 
 ![[Pasted image 20260119170136.png]]
 `[A-U](\.[0-9]{2}(\.[0-9]{3}(\.[0-9]{4})?)?)?`
 ![[Pasted image 20260119170431.png]]
 1,{b,x,bb,bx}*{b,f}={bb,xb,bbb,bxb,bf,xf,bbf,bxf}
-2, {ok, onl, o, oll, onn, oln}
+2, {oll, onl}
 3, {$epsilon$}
 4, {rr,rh,rq,hr,hh,hq,qr,qh,qq}
 5, {o, nl}
@@ -285,3 +285,69 @@ rechts, beides 1
 siehe mappe
 
 in 65 min mit nachschauen welcher mealy moore, und welche regex welche
+
+
+# ALT 2022 w 3
+![[Pasted image 20260120140234.png]]
+a, moore
+b, nea
+c, keiner
+d, mealy
+e, dea, nea, beide büchi
+
+![[Pasted image 20260120140440.png]]
+siehe Mappe
+
+![[Pasted image 20260120141041.png]]
+![[Pasted image 20260120141937.png]]
+siehe Mappe
+
+![[Pasted image 20260120142103.png]]
+$not exists x "Lustig"(x)$
+![[Pasted image 20260120142215.png]]2, $exists x "Lustig"(x) and "Kostüm"(x)$
+3, $forall k "Kind"(k) and "Trägt"(k,"superman")=> not "Trägt"(k,"batman")$
+4, $exists k "Kind"(k) and forall y "Kostüm"(y) and "Lustig"(y)=>"Trägt"(k,y)$
+5, $forall k exists y "Kind"(k) and "Kostüm"(y) and "Trägt"(k,y)$
+
+![[Pasted image 20260120145031.png]]
+eine Person tägt etwas lustiges, wahr
+
+Mia und trägt ein Batman-K
+
+![[Pasted image 20260120145204.png]]
+alle kinder tragen batman oder catwoman kostüme
+
+wahr
+mia catwoman, max catwoman und tahel batman
+
+![[Pasted image 20260120145335.png]]
+alles trägt entweder superman oder batman
+
+Superman-K trägt weder superman noch batman
+falsch
+
+![[Pasted image 20260120150631.png]]
+
+1 kein element
+2 ist ein element
+3, kein element
+![[Pasted image 20260120151218.png]]
+P = {
+A := \<B\> \<Z\> "M-" \<C\> \<D\> \<F\>
+B := "vi" \<B\> | $epsilon$
+Z := "1" \<Z\>  | "2" \<Z\> | "3" \<Z\> | $epsilon$
+C := "-" \<C\> | $epsilon$
+D :=  \<G\> "B"
+F := \<D\> \<F\> | $epsilon$
+G := "0" | "1" | "11"
+}
+
+![[Pasted image 20260120154703.png]]
+siehe Mappe
+
+![[Pasted image 20260120155523.png]]
+falsch
+falsch
+wahr
+wahr
+falsch
